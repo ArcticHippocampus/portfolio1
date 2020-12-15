@@ -49,6 +49,7 @@ ul {
        list-style: none;
        justify-content: center;
        font-weight: 600; 
+       font-size:20px;
       
         
    }
@@ -175,6 +176,9 @@ p.hi {
     .showcase {
         margin: 0vw 10vw 0vw 10vw;
     }
+    ul{
+        font-size:15px;
+    }
 
 }
 @media only screen and (max-device-width: 750px) {
@@ -219,8 +223,10 @@ p.hi {
   }
 
   @media only screen and (max-device-width: 380px) {
-    .showcase {
-        margin: 0vw 1vw 0vw 1vw;
+    p.hi {
+        font-size: 1.5vw;
     }
-
+    .showcase p{
+        font-size: 2vw;
+    }
 }
